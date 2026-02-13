@@ -240,7 +240,8 @@ body::-webkit-scrollbar{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
     gap: var(--spacing-md);
-    padding: var(--container-padding);
+    padding: var(--spacing-md);
+    margin-top: 20px;
 }
 
 .gallery-item {

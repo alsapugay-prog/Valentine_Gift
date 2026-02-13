@@ -225,15 +225,18 @@ body::-webkit-scrollbar{
 /* Gallery Styles */
 .gallery {
     position: fixed;
-    top: 0%;
-    left: 0%;
-    transform: translate(-50%, -50%);
-    width: min(90vw, 1400px);
+    top: 0; /* Simula sa pinakataas */
+    left: 0;
+    width: 100%;
+    height: 100dvh; /* Sakop ang buong screen */
     opacity: 0;
     visibility: hidden;
     transition: all 1s var(--transition-timing);
-    max-height: 90vh;
-    overflow-y: auto;
+    overflow-y: auto; /* Dito papasok ang scroll */
+    z-index: 999;
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+    padding-top: 40px; /* Space para sa header sa taas */
+    padding-bottom: 40px;
 }
 
 .gallery-grid {

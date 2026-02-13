@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Gift</title>
+    <!-- CDN Links -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom Css  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css"> 
+    <!-- Icon -->
+    <link rel="Icon" href="icon/icon.png"> 
+</head>
+<body>
+
+    <!-- Welcome Message -->
+    <div class="welcome-message">
+        <h1>Happy Valentine's Day! ❤️</h1>
+        <p>Click the button below to open your special gift</p>
+        <button class="start-button">Open Gift</button>
+    </div>
+    <!-- End Of Welcome Messages -->
+
+    <div class="floating-hearts"></div>
+    <div class="gift-container">
+        <div class="gift-box">
+<!--             <div class="ribbon"></div> -->
+            <div class="side front">
+                <div class="heart"></div>
+            </div>
+            <div class="side back"></div>
+            <div class="side left"></div>
+            <div class="side right"></div>
+            <div class="side top"></div>
+            <div class="side bottom"></div>
+        </div>
+        <div class="gallery">
+          <h2 class="gallery-header">Flowers for you Juliee!🌹</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" style="--rotation: -3deg; --delay: 0s; --tape-rotation: -45deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/1.jpg" alt="Romantic moment 1">
+                    <div class="gallery-caption">Hope your day is as beautiful as these flowers</div>
+                </div>
+                <div class="gallery-item" style="--rotation: 2deg; --delay: 0.2s; --tape-rotation: 45deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/2.png" alt="Romantic moment 2">
+                    <div class="gallery-caption">A little something to brighten your day 🌸</div>
+                </div>
+                <div class="gallery-item" style="--rotation: -2deg; --delay: 0.4s; --tape-rotation: -30deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/3.png" alt="Romantic moment 3">
+                    <div class="gallery-caption">Happy Valentine’s Day! Wishing you a day full of smiles 💛</div>
+                </div>
+                <div class="gallery-item" style="--rotation: 3deg; --delay: 0.6s; --tape-rotation: 30deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/4.webp" alt="Romantic moment 4">
+                    <div class="gallery-caption">Even flowers need time to bloom. Be patient with yourself, you're doing amazing.</div>
+                </div>
+                <div class="gallery-item" style="--rotation: -1deg; --delay: 0.8s; --tape-rotation: -40deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/5.webp" alt="Romantic moment 5">
+                    <div class="gallery-caption">Just a reminder: You make the world a lot more colorful just by being you. Keep going!</div>
+                </div>
+                <div class="gallery-item" style="--rotation: 2deg; --delay: 1s; --tape-rotation: 40deg;">
+                    <div class="polaroid-tape left"></div>
+                    <div class="polaroid-tape right"></div>
+                    <img src="assets/gallery/6.png" alt="Romantic moment 6">
+                    <div class="gallery-caption">Rooting for you today and every day. You've got this!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <audio id="background-music" loop>
+        <source src="assets/audio/leonora.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-toggle">
+        <i class="fas fa-music"></i>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

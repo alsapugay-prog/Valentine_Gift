@@ -225,7 +225,7 @@ body::-webkit-scrollbar{
 /* Gallery Styles */
 .gallery {
     position: absolute;
-    top: 105%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: min(90vw, 1400px);

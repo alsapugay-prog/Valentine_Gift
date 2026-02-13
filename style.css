@@ -225,8 +225,8 @@ body::-webkit-scrollbar{
 /* Gallery Styles */
 .gallery {
     position: fixed;
-    top: 50%;
-    left: 50%;
+    top: 0%;
+    left: 0%;
     transform: translate(-50%, -50%);
     width: min(90vw, 1400px);
     opacity: 0;
